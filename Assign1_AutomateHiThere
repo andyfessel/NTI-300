@@ -1,0 +1,33 @@
+ yum install httpd mod_ssl
+    2  service httpd start
+    3  systemctl start httpd
+    4  systemctl status httpd
+    5  cat /etc/httpd/conf.d/welcome.conf
+    6  yum install httpd mod_ssl
+    7  service httpd start
+    8  systemctl start httpd
+    9  systemctl1 status httpd
+   10  system ct1 status httpd
+   11  system ctl status httpd
+   12  systemctl status httpd
+   13  vim /etc/httpd/conf.d/welcome.conf
+   14  sed -i 's/^/#/g' /etc/httpd/conf.d/welcome.conf
+   15  vim /etc/httpd/conf.d/welcome.conf
+   16  sed -i 's/^/#/g' /etc/httpd/conf.d/welcome/conf
+   17  vim /etc/httpd/conf.d/welcome.conf
+   18  sed -i 's/^/#/g' /etc/httpd/conf.d/welcome.conf
+   19  vim /etc/httpd/conf.d/welcome.conf
+   20  yum install httpd mod_ssl
+   21  service httpd start
+   22  systemctl status httpd
+   23  cat /etc/httpd/conf.d/welcome.conf
+   24  vim /etc/httpd/conf.d/welcome.conf
+   25  sed -i 's/^/#/g' /etc/httpd/conf.d/welcome.conf
+   26  vim /etc/httpd/conf.d/welcome.conf
+   27  echo "<html><body><h1>Hi there NTI 300</h1></body></html>" /var/www/html/index.html
+   28  vim /var/www/html/index.html
+   29  systemctl restart httpd
+   30  history
+[root@nti300-assign-scriptapacheinstall andyfessel]# cat /var/www/html/index.html
+[root@nti300-assign-scriptapacheinstall andyfessel]# echo "<html><body><h1>Hi there NTI 300</h1></body></html>" > /var/www/html/index.html
+[root@nti300-assign-scriptapacheinstall andyfessel]# vim /var/www/html.html
