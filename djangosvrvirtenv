@@ -1,0 +1,20 @@
+ 1  sudo su
+    2  history
+    3  sudo yum install python-pip
+    4  sudo pip install virtualenv
+    5  mkdir ~/1staproj
+    6  cd ~/1staproj
+    7  virtualenv newenv
+    8  source newenv/bin/activate
+    9  pip install django
+   10  django-admin --version
+   11  django-admin startproject hmwkdjsvrvirtenv
+   12  cd hmwkdjsvrvirtenv
+   13  python manage.py migrate
+   14  python manage.py createsuperuser
+   15  python manage.py runserver 0.0.0.0:8000
+   16  ifconfig |grep inet
+   17  curl whatismyip.org
+   18  ~cd/
+   19  history
+(newenv) [andyfessel@django-exercise hmwkdjsvrvirtenv]$ 
