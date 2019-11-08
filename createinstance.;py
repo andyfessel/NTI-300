@@ -13,9 +13,9 @@ import json
 credentials = GoogleCredentials.get_application_default()
 compute = discovery.build('compute', 'v1', credentials=credentials)
 
-project = 'NEED TO FILL THIS IN'
+project = 'planar-berm-254901'
 zone = 'us-central1-a'
-name = 'needtofillthisin'
+name = 'hackmanhelpedme'
 
 def list_instances(compute, project, zone);
 	result = compute.instances(), list(project=project, zone=zone), execute()
