@@ -1,0 +1,42 @@
+    8  mkdir -p /var/www/html/repos/epel
+    9  reposync -g -l -d -m --repoid=epel
+   10  reposync -g -l -d -m --repoid=epel
+   11  cd /etc/nginx
+   12  cp nginx.conf nginx.conf.bak
+   13  vim nginx.conf
+   14  restorecon -R /var/www/html
+   15  systemctl restart nginx
+   16  vim nginx.conf
+   17  systemctl stop nginx
+   18  systemctl start nginx
+   19  journalctl -xe
+   20  vim nginx.conf
+   21  systemctl start nginx
+   22  journalctl -xe
+   23  setenforce 0
+   24  systemctl start nginx
+   25  ls
+   26  cp nginx.conf.bak nginx.conf
+   27  vim nginx.conf
+   28  systemctl start nginx
+   29  createrepo /bar/www/html/repos/epel
+   30  createrepo /var/www/html/repos/epel
+   31  cd /var/www/html
+   32  ls
+   33  cd repos/
+   34  ls
+   35  cd epel/
+   36  ls
+   37  reposync -g -l -d -m --repoid=epel --newest-only --download-metadata --download_path=/var/www/html/repos/
+   38  cd /etc/nginx/
+   39  cp nginx nginx.conf.bak
+   40  cp nginx nginx.conf.bak
+   41  ls
+   42  restorecon -R /var/www/html
+   43  systemctl restart nginx
+   44  yum repolist
+   45  vim /etc/yum.repos.d/epel
+   46  vim /etc/yum.repos.d/epel
+   47  vim /etc/yum.repos.d/local-repos
+   48  history
+[root@repo-mirror andyfessel]# 
